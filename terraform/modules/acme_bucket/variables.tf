@@ -4,9 +4,9 @@ variable bucket_name {
 
 variable "s3_logging_bucket" {
   description = "The name of the acme corp logging bucket"
-  default = "acme-s3-logging-bucket"
+  default = "nick-acme-s3-logging-bucket"
 }
 
 variable "cost_centre" {
-  description = "The cost centre code for the bucket"
+  description = "The cost center code for the bucket"
 }
